@@ -21,6 +21,7 @@ export const Home = () => {
 
   const handleAddTask = (taskAdded: string) => {
     if (tasks.includes(taskAdded)) {
+      console.log('aqui');
       return Alert.alert(
         'Tarefa já adicionada',
         'Esta tarefa já foi adicionada a sua lista, não é permitido adicionar tarefas repetidas!'
@@ -74,6 +75,7 @@ export const Home = () => {
           <TextInput
             placeholder="Adicione uma nova tarefa"
             placeholderTextColor="#808080"
+            value={task}
             onChangeText={setTask}
             style={styles.input}
           />

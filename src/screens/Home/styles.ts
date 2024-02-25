@@ -22,11 +22,12 @@ export const styles = StyleSheet.create({
     marginTop: -28,
   },
   input: {
-    fontSize: 16,
     flex: 1,
     width: '100%',
     backgroundColor: '#262626',
     color: '#F2F2F2',
+    fontSize: 16,
+    fontFamily: 'Inter_400Regular',
     padding: 16,
     borderRadius: 6,
     borderWidth: 1,

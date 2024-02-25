@@ -27,14 +27,9 @@ export const Task = ({ title, onChangeValue, onDelete }: TaskProps) => {
         {isChecked ? <Icon name="check" size={16} color="#fff" /> : <></>}
       </TouchableOpacity>
       <View style={styles.titleContainer}>
-        {isChecked ? (
-          <>
-            <DashedLine dashGap={1} />
-            <Text>{title}</Text>
-          </>
-        ) : (
-          <Text style={styles.title}>{title}</Text>
-        )}
+        <Text style={[styles.title, isChecked && styles.titleChecked]}>
+          {title}
+        </Text>
       </View>
       <Icon name="trash-2" size={20} color="#808080" onPress={onDelete} />
     </View>

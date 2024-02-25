@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 14,
+    fontFamily: 'Inter_700Bold',
   },
   countContainer: {
     flexDirection: 'row',
@@ -21,5 +22,6 @@ export const styles = StyleSheet.create({
   countValue: {
     color: '#D9D9D9',
     fontSize: 12,
+    fontFamily: 'Inter_400Regular',
   },
 });

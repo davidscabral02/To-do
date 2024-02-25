@@ -41,5 +41,13 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     color: '#F2F2F2',
     alignSelf: 'flex-start',
+    fontFamily: 'Inter_400Regular',
+  },
+  titleChecked: {
+    fontSize: 14,
+    color: '#808080',
+    alignSelf: 'flex-start',
+    textDecorationLine: 'line-through',
+    fontFamily: 'Inter_400Regular',
   },
 });
