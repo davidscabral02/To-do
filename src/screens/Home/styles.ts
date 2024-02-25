@@ -1,0 +1,61 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#1A1A1A',
+    alignItems: 'center',
+  },
+  header: {
+    flex: 1,
+    width: '100%',
+    height: 56,
+    backgroundColor: '#0D0D0D',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  infoContainer: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: -28,
+  },
+  input: {
+    fontSize: 16,
+    flex: 1,
+    width: '100%',
+    backgroundColor: '#262626',
+    color: '#F2F2F2',
+    padding: 16,
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: '#0D0D0D',
+  },
+  button: {
+    height: 50,
+    width: 50,
+    borderRadius: 5,
+    backgroundColor: '#1E6F9F',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 6,
+  },
+  body: {
+    flex: 3,
+    backgroundColor: '#1A1A1A',
+    alignItems: 'center',
+    paddingHorizontal: 12,
+  },
+  tasks: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderBottomWidth: 1,
+    borderBottomColor: '#333333',
+    marginTop: 26,
+    marginBottom: 5,
+    paddingBottom: 12,
+  },
+});
